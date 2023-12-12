@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FED71802B0C1136009BBA6A /* GasBuddyProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED717F2B0C1136009BBA6A /* GasBuddyProApp.swift */; };
+		0FED71822B0C1136009BBA6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED71812B0C1136009BBA6A /* ContentView.swift */; };
+		0FED71842B0C1139009BBA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FED71832B0C1139009BBA6A /* Assets.xcassets */; };
+		0FED71872B0C1139009BBA6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FED71862B0C1139009BBA6A /* Preview Assets.xcassets */; };
+		0FED71912B0D7E9E009BBA6A /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED71902B0D7E9D009BBA6A /* GasStation.swift */; };
+		0FED71952B0DABA0009BBA6A /* PriceInStatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED71942B0DABA0009BBA6A /* PriceInStatesView.swift */; };
+		0FED71972B0DD167009BBA6A /* USStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED71962B0DD167009BBA6A /* USStates.swift */; };
+		0FED719B2B0DF780009BBA6A /* jsonWebVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED719A2B0DF780009BBA6A /* jsonWebVM.swift */; };
+		0FED719D2B0EF54A009BBA6A /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED719C2B0EF54A009BBA6A /* FavoriteView.swift */; };
+		0FED71A22B0EFD37009BBA6A /* GasStationInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FED71A02B0EFD37009BBA6A /* GasStationInfo.xcdatamodeld */; };
+		0FED71A42B0EFDBC009BBA6A /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FED71A32B0EFDBC009BBA6A /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FED717C2B0C1136009BBA6A /* GasBuddyPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasBuddyPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FED717F2B0C1136009BBA6A /* GasBuddyProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasBuddyProApp.swift; sourceTree = "<group>"; };
+		0FED71812B0C1136009BBA6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FED71832B0C1139009BBA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FED71862B0C1139009BBA6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FED71902B0D7E9D009BBA6A /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
+		0FED71942B0DABA0009BBA6A /* PriceInStatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceInStatesView.swift; sourceTree = "<group>"; };
+		0FED71962B0DD167009BBA6A /* USStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USStates.swift; sourceTree = "<group>"; };
+		0FED719A2B0DF780009BBA6A /* jsonWebVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonWebVM.swift; sourceTree = "<group>"; };
+		0FED719C2B0EF54A009BBA6A /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		0FED71A12B0EFD37009BBA6A /* GasStationInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GasStationInfo.xcdatamodel; sourceTree = "<group>"; };
+		0FED71A32B0EFDBC009BBA6A /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FED71792B0C1136009BBA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FED71732B0C1136009BBA6A = {
+			isa = PBXGroup;
+			children = (
+				0FED717E2B0C1136009BBA6A /* GasBuddyPro */,
+				0FED717D2B0C1136009BBA6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FED717D2B0C1136009BBA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FED717C2B0C1136009BBA6A /* GasBuddyPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FED717E2B0C1136009BBA6A /* GasBuddyPro */ = {
+			isa = PBXGroup;
+			children = (
+				0FED717F2B0C1136009BBA6A /* GasBuddyProApp.swift */,
+				0FED71812B0C1136009BBA6A /* ContentView.swift */,
+				0FED71A32B0EFDBC009BBA6A /* DataController.swift */,
+				0FED719C2B0EF54A009BBA6A /* FavoriteView.swift */,
+				0FED71942B0DABA0009BBA6A /* PriceInStatesView.swift */,
+				0FED719A2B0DF780009BBA6A /* jsonWebVM.swift */,
+				0FED71902B0D7E9D009BBA6A /* GasStation.swift */,
+				0FED71A02B0EFD37009BBA6A /* GasStationInfo.xcdatamodeld */,
+				0FED71962B0DD167009BBA6A /* USStates.swift */,
+				0FED71832B0C1139009BBA6A /* Assets.xcassets */,
+				0FED71852B0C1139009BBA6A /* Preview Content */,
+			);
+			path = GasBuddyPro;
+			sourceTree = "<group>";
+		};
+		0FED71852B0C1139009BBA6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FED71862B0C1139009BBA6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FED717B2B0C1136009BBA6A /* GasBuddyPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FED718A2B0C1139009BBA6A /* Build configuration list for PBXNativeTarget "GasBuddyPro" */;
+			buildPhases = (
+				0FED71782B0C1136009BBA6A /* Sources */,
+				0FED71792B0C1136009BBA6A /* Frameworks */,
+				0FED717A2B0C1136009BBA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasBuddyPro;
+			productName = GasBuddyPro;
+			productReference = 0FED717C2B0C1136009BBA6A /* GasBuddyPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FED71742B0C1136009BBA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0FED717B2B0C1136009BBA6A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 0FED71772B0C1136009BBA6A /* Build configuration list for PBXProject "GasBuddyPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FED71732B0C1136009BBA6A;
+			productRefGroup = 0FED717D2B0C1136009BBA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FED717B2B0C1136009BBA6A /* GasBuddyPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FED717A2B0C1136009BBA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FED71872B0C1139009BBA6A /* Preview Assets.xcassets in Resources */,
+				0FED71842B0C1139009BBA6A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FED71782B0C1136009BBA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FED719D2B0EF54A009BBA6A /* FavoriteView.swift in Sources */,
+				0FED719B2B0DF780009BBA6A /* jsonWebVM.swift in Sources */,
+				0FED71952B0DABA0009BBA6A /* PriceInStatesView.swift in Sources */,
+				0FED71972B0DD167009BBA6A /* USStates.swift in Sources */,
+				0FED71A42B0EFDBC009BBA6A /* DataController.swift in Sources */,
+				0FED71A22B0EFD37009BBA6A /* GasStationInfo.xcdatamodeld in Sources */,
+				0FED71912B0D7E9E009BBA6A /* GasStation.swift in Sources */,
+				0FED71822B0C1136009BBA6A /* ContentView.swift in Sources */,
+				0FED71802B0C1136009BBA6A /* GasBuddyProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FED71882B0C1139009BBA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FED71892B0C1139009BBA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FED718B2B0C1139009BBA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasBuddyPro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE335.GasBuddyPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FED718C2B0C1139009BBA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasBuddyPro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSE335.GasBuddyPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FED71772B0C1136009BBA6A /* Build configuration list for PBXProject "GasBuddyPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FED71882B0C1139009BBA6A /* Debug */,
+				0FED71892B0C1139009BBA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FED718A2B0C1139009BBA6A /* Build configuration list for PBXNativeTarget "GasBuddyPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FED718B2B0C1139009BBA6A /* Debug */,
+				0FED718C2B0C1139009BBA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FED71A02B0EFD37009BBA6A /* GasStationInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FED71A12B0EFD37009BBA6A /* GasStationInfo.xcdatamodel */,
+			);
+			currentVersion = 0FED71A12B0EFD37009BBA6A /* GasStationInfo.xcdatamodel */;
+			name = GasStationInfo.xcdatamodeld;
+			path = ../GasStationInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0FED71742B0C1136009BBA6A /* Project object */;
+}
